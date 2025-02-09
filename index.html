@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="dist/css/main.min.css">
+    <script src="main.js" type="module"></script>
+</head>
+<body>
+    <main class="fade-in">
+        <section id="searchBar" class="searchBar fade-in">
+            <form id="searchBarForm" class="searchBarForm">
+                <input type="text" id="searchBarText" class="searchBarText"  size="40" autocomplete="off">
+                <button id="searchBarButton" class="searchBarButton button" title="submit location">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+        </section>
+        <section id="currentForecast" class="currentForecast fade-in ">
+            <h2 id="currentForecastTitle" class="currentForecastTitle "></h2>
+            <div id="currentForecastConditions" class="currentForecastConditions">
+
+                <!--  comes from main.js -->
+                <!-- 
+                  <div id="icon" class="icon">
+                    <i class="far fa-sun" title="clear sky"></i>
+                  </div>
+                  <div class="temp">
+                    9°<div class="unit">C</div>
+                  </div>
+                  <div class="desc">clear sky</div>
+                  <div class="maxTemp">high 10°</div>
+                  <div class="minTemp">low 6°</div>
+                  <div class="humidity">humidity 44%</div>
+                  <div class="wind">wind 7 mph</div>
+                 -->
+
+            </div>
+        </section>
+      </main>
+</body>
+
+</html>

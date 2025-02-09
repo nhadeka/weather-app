@@ -1,0 +1,12 @@
+// 7-1 sass pattern(folder architecture). (7 folders, 1 file) 
+// 7 folders- abstracts(mixins,variables...), base(global styles...), components, layout, themes, pages, vendors(3rd-party lib).
+//in 7-1 sass pattern, 1 file- main.scss(like an entry point where you import all other partials and compile them into a single css file )
+// this app is single page and we don't use 3rd-party library so we use 5-1 folder pattern.
+
+@import "abstracts/colors";
+@import "abstracts/mixins";
+@import "base/base";
+@import "components/buttons";
+@import "layout/searchBar";
+@import "layout/currentForecast";
+@import "themes/background";

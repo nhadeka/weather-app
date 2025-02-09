@@ -1,0 +1,34 @@
+
+.clear {
+    background-color: $background-color;;
+    background-image: url("../../img/clear.jpg");
+}
+.snow {
+    background-color: $background-color;
+    background-image: url("../../img/snow.jpg");
+}
+
+.rain {
+    background-color: $background-color;
+    background-image: url("../../img/rain.jpg");
+}
+
+.fog {
+    background-color: $haze-color;
+    background-image: url("../../img/haze.jpg");
+}
+
+.clouds {
+    background-color: $background-color;
+    background-image: url("../../img/clouds.jpg");
+}
+
+.hail {
+    background-color: $background-color;
+    background-image: url("../../img/hail.jpg");
+}
+
+.thunder {
+    background-color: $background-color;
+    background-image: url("../../img/thunder.jpg");
+}
